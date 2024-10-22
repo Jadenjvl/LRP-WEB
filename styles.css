@@ -55,7 +55,24 @@ h2 {
     background-color: #5c31b1; /* Darker purple on hover */
 }
 
+/* Styles for the Join button */
+.join-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50; /* Green button */
+    color: #fff; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px; /* Space between buttons */
+    transition: background-color 0.3s;
+}
+
+.join-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
 footer {
     text-align: center;
     margin-top: 20px;
 }
+
